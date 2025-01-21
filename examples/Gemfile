@@ -1,0 +1,67 @@
+source 'https://rubygems.org'
+
+# Essential web framework
+gem 'rails', '6.1.4'
+
+# Database ORM
+gem 'pg', '~> 1.2.3'  # PostgreSQL adapter
+
+# JSON APIs
+gem 'active_model_serializers', '~> 0.10.0'
+
+# Background processing
+gem 'sidekiq', '~> 6.2'
+
+# Authentication
+gem 'devise', '~> 4.8'
+
+# Web server
+gem 'puma', '~> 5.0'
+
+# For building APIs
+gem 'grape', '~> 1.5'
+
+# Testing frameworks
+gem 'rspec-rails', '~> 5.0'
+gem 'factory_bot_rails', '~> 6.2'
+
+# Frontend asset pipeline
+gem 'webpacker', '~> 5.0'
+
+# Form and HTML helpers
+gem 'simple_form', '~> 5.1'
+
+# Debugging tools
+gem 'byebug', '~> 11.1'
+
+# Rate limiting
+gem 'rack-attack', '~> 6.5'
+
+# Caching
+gem 'dalli', '~> 3.1'  # Memcached client for Ruby
+
+# File uploading
+gem 'carrierwave', '~> 2.0'
+
+# PDF generation
+gem 'prawn', '~> 2.4'
+
+# Date and time handling
+gem 'chronic', '~> 0.10.2'
+
+# Authorization
+gem 'cancancan', '~> 3.3'
+
+# CSS and JS framework integration
+gem 'bootstrap', '~> 5.0'
+
+# Monitoring and performance
+gem 'newrelic_rpm', '~> 6.18'
+
+# Error tracking
+gem 'sentry-rails', '~> 5.0'
+
+# Utility libraries
+gem 'httparty', '~> 0.18'
+
+gem 'pretty_color'
