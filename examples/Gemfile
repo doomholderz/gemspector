@@ -1,67 +1,117 @@
-source 'https://rubygems.org'
-
-# Essential web framework
-gem 'rails', '6.1.4'
-
-# Database ORM
-gem 'pg', '~> 1.2.3'  # PostgreSQL adapter
-
-# JSON APIs
-gem 'active_model_serializers', '~> 0.10.0'
-
-# Background processing
-gem 'sidekiq', '~> 6.2'
-
-# Authentication
-gem 'devise', '~> 4.8'
-
-# Web server
-gem 'puma', '~> 5.0'
-
-# For building APIs
-gem 'grape', '~> 1.5'
-
-# Testing frameworks
-gem 'rspec-rails', '~> 5.0'
-gem 'factory_bot_rails', '~> 6.2'
-
-# Frontend asset pipeline
-gem 'webpacker', '~> 5.0'
-
-# Form and HTML helpers
-gem 'simple_form', '~> 5.1'
-
-# Debugging tools
-gem 'byebug', '~> 11.1'
-
-# Rate limiting
-gem 'rack-attack', '~> 6.5'
-
-# Caching
-gem 'dalli', '~> 3.1'  # Memcached client for Ruby
-
-# File uploading
-gem 'carrierwave', '~> 2.0'
-
-# PDF generation
-gem 'prawn', '~> 2.4'
-
-# Date and time handling
-gem 'chronic', '~> 0.10.2'
-
-# Authorization
-gem 'cancancan', '~> 3.3'
-
-# CSS and JS framework integration
-gem 'bootstrap', '~> 5.0'
-
-# Monitoring and performance
-gem 'newrelic_rpm', '~> 6.18'
-
-# Error tracking
-gem 'sentry-rails', '~> 5.0'
-
-# Utility libraries
-gem 'httparty', '~> 0.18'
-
-gem 'pretty_color'
+gem '1-as-identity_function'
+gem '1-as_identity_function'
+gem '37_pieces-of-flair'
+gem '3months-staff-schedule'
+gem '3months-staff_schedule'
+gem '3scale-client'
+gem '3scale-time-range'
+gem '3scale-time_range'
+gem '99designs_tasks'
+gem 'a-special-day'
+gem 'a-special_day'
+gem 'a-stupid-test_gem'
+gem 'a-stupid_test_gem'
+gem 'a1330ks-bmi'
+gem 'a1408nw-ounennhei'
+gem 'a1409yo-health'
+gem 'a1412tk-bmi'
+gem 'a1420ks-bmi'
+gem 'a1426kt-prime-number'
+gem 'a1426kt-prime_number'
+gem 'a1436mm-age'
+gem 'a1437ky-bmi3'
+gem 'a1439ty-bmiv3'
+gem 'a1447ll-hpbd'
+gem 'a1447ll-mini_test'
+gem 'a1447ll-test'
+gem 'a14z6ch-elapsed-days'
+gem 'a14z6ch-elapsed_days'
+gem 'a1501da-birthday'
+gem 'a1508ki-ika'
+gem 'a1510jy-bmi'
+gem 'a1520mk-exercise4'
+gem 'a1521hk-age'
+gem 'a1521hk-minitest-practice'
+gem 'a1521hk-minitest_practice'
+gem 'a1535yt-gem'
+gem 'a1539kh-calculator'
+gem 'a1548sy-yamamoto'
+gem 'a15666011-konagayoshi'
+gem 'a15745105-ichinoki'
+gem 'a15745105-ichinokii'
+gem 'a15z7kn-niitsuma_2016_gem'
+gem 'a15z8my-name'
+gem 'a1616ts-gem'
+gem 'a1624-bmi'
+gem 'a1630ty-a1630ty'
+gem 'a1632ma-ano'
+gem 'a_test-gem'
+gem 'aai10_mechanize'
+gem 'aasm-active-fedora'
+gem 'aasm-history'
+gem 'aasm-ohm_persistence'
+gem 'aastra-xml-api'
+gem 'aastra-xml_api'
+gem 'ab-panel'
+gem 'ab_split'
+gem 'abbish-sequel_plugins'
+gem 'abbreviated-methods'
+gem 'abbyy_cloud'
+gem 'abbyy_ruby'
+gem 'ability-engine'
+gem 'ability-list'
+gem 'abiquo_api'
+gem 'abn-validator'
+gem 'about-pos'
+gem 'absa_notify-me'
+gem 'abstract-api_wrapper'
+gem 'abstract-importer'
+gem 'acceptance-tests_support'
+gem 'acception_client'
+gem 'acception_subscriber'
+gem 'accepts-nested_serialized_attributes'
+gem 'access-lint'
+gem 'access-policy-rails'
+gem 'access-policy'
+gem 'access-policy_rails'
+gem 'accessible-tooltip'
+gem 'accesslint_ci'
+gem 'accredible_api-ruby'
+gem 'accredible_ruby'
+gem 'ace_client-ext'
+gem 'ach-client'
+gem 'ackintosh-net-empty-port'
+gem 'acme-base64-hexagrams'
+gem 'acme_bleach'
+gem 'acme_cli'
+gem 'acme_client'
+gem 'acme_heisenberg'
+gem 'acme_leeway'
+gem 'acme_pki'
+gem 'acme_smileage'
+gem 'acmesmith_designate'
+gem 'acmesmith_google-cloud-dns'
+gem 'acmesmith_google-cloud-storage'
+gem 'acmesmith_ns1'
+gem 'acmesmith_verisign'
+gem 'acpc-poker-basic_proxy'
+gem 'acpc-poker-match_state'
+gem 'acpc-poker-player_proxy'
+gem 'acpc-poker-types'
+gem 'acpc-poker_basic_proxy'
+gem 'acpc-poker_match_state'
+gem 'acpc-poker_player_proxy'
+gem 'acpc-poker_types'
+gem 'acquia-toolbelt'
+gem 'act-as_enumerable'
+gem 'act-as_importable'
+gem 'act-as_nameable'
+gem 'act-as_serializable'
+gem 'act-as_time_as_boolean'
+gem 'act-blue_reporter'
+gem 'action-cable_subscription_adapter'
+gem 'action-component'
+gem 'action-links'
+gem 'action-mailer_cache_delivery'
+gem 'action-meta_tags'
+gem 'action-parameter'

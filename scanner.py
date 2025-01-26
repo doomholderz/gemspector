@@ -52,7 +52,18 @@ def get_gem_owners(gem_name, output_format='json', base_url='https://rubygems.or
     except requests.RequestException as e:
         return f"Error fetching data: {e}"
 
-def main():
+def get_gem_downloads_count(gem_name):
+    #url = f"https://rubygems.org/api/v1/downloads/{gem_name}.json"
+    url = f"https://rubygems.org/api/v1/gems/{gem_name}.json"
+    print(url)
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        return f"Error fetching data: {e}"
+
+def main2():
     parser = argparse.ArgumentParser(description="Scan a Gemfile for listed gems.")
     parser.add_argument("-d", "--directory", required=True, help="Path to the Gemfile")
     args = parser.parse_args()
@@ -72,6 +83,16 @@ def main():
                     print(f"\temail: {owner["email"]}")
                     active_email_domain = check_domain_expiry(email_domain)
                     print(f"\t{active_email_domain}")
+                else:
+                    print(owner)
+
+def main():
+    malicious_packages = open("examples/ossf-malicious-gems.txt", "r")
+    for package in malicious_packages:
+       
+        download_count = get_gem_downloads_count(package.strip())
+        print(download_count)
+        
 
 if __name__ == "__main__":
     main()
